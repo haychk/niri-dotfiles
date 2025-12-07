@@ -385,12 +385,20 @@ binds {
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Miscellaneous#environment
 
     environment {
+        QT_QPA_PLATFORM "wayland;xcb"
+        QT_QPA_PLATFORMTHEME "qt5ct:qt6ct"
+        SQL_VIDEODRIVER "wayland"
+        _JAVA_AWT_WM_NONREPARENTING "1"
         DISPLAY ":1"
+        XWAYLAND_ENABLE "1"
+        QT_QPA_PLATFORMTHEME "kde"
+        XDG_MENU_PREFIX "plasma-"
         ELECTRON_OZONE_PLATFORM_HINT "auto"
-        QT_QPA_PLATFORM "wayland"
-        QT_WAYLAND_DISABLE_WINDOWDECORATION "1"
-        XDG_SESSION_TYPE "wayland"
-        XDG_CURRENT_DESKTOP "niri"
+        QT_IM_MODULE "fcitx"
+        XMODIFIERS "@im=fcitx"
+        SDL_IM_MODULE "fcitx"
+        GLFW_IM_MODULE "ibus"
+        INPUT_METHOD "fcitx"
     }
 
     hotkey-overlay {
