@@ -18,5 +18,16 @@ Me personally, I would just drag and drop these files into the /config folder in
 ![Vicinae (app launcher) setup](images/niri-first-attempt-at-ricing-v0-psuptdcggb4g1.png)
 ![Overall look on the system](images/niri-first-attempt-at-ricing-v0-cbrrpdcggb4g1.png)
 
-# License
+## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Authors
+
+- [@haychk](https://www.github.com/haychk)
+
+
+## Support
+
+For support, dm me on discord @haychk_
